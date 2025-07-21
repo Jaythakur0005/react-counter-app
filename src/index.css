@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+  }
+}
+
+@layer utilities {
+  .backdrop-blur {
+    backdrop-filter: blur(8px);
+  }
+}
